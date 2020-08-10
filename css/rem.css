@@ -8,3 +8,160 @@ body,ul,li,p,h1,h2,h3,h4,h5,h6{
 html{
     font-size: 13.333333vw;
 }
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+/* 头部 */
+header{
+    width: 7.50rem;
+    height: 1.27rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background: #333;
+    overflow: hidden;
+}
+header img{
+    width: 4.5rem;
+    height: 0.4rem;
+    margin: auto;
+    margin-top: 0.59rem;
+    display: block;
+}
+/* 商城 */
+.search{
+    width: 7.50rem;
+    height: 1.27rem;
+    background: #333;
+    position: relative;
+}
+.search .mall{
+    position: absolute;
+    display: flex;
+    margin-left: 0.05rem;
+}
+.search .mall div{
+    width: 1.2rem;
+    height:0.8rem;
+    text-align: center;
+    line-height:0.7rem;
+    background: rgb(208, 18, 27);
+    margin-left: 0.16rem;
+    color: white;
+    margin-top: 0.2rem;
+}
+.search .mall div a{
+    color: white;
+    text-decoration: none;
+}
+.search .login{
+    position: absolute;
+    margin-left: 3.1rem;
+    text-align: center;
+    line-height:0.65rem;
+    margin-top: 0.3rem;
+    color: white; 
+    font-size: 0.3rem;
+}
+.search .login span{
+    margin-left: 0.2rem;
+}
+.search .login span a{
+    color: #fff;
+}
+
+/* 导航栏 */
+
+/* nav开始 */
+.nav{
+    width: 100%;
+    height: 1rem;
+    background: #565656;
+    position: relative;
+    overflow: hidden;
+}
+.nav span{
+    font-size: 0.3rem;
+    /* font-family: "华文仿宋"; */
+    display: block;
+    width: 2rem;
+    height: 1rem;
+    line-height: 1rem;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+}
+.nav .nav-more{
+    width: 1rem;
+    height: 1rem;
+    text-align: center;
+    font-size: 0.26rem;
+    line-height: 1rem;
+    transform: rotate(90deg) scaleY(1.5);
+    color: white;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.nav-mask{
+    width: 100%;
+    background: #565656;
+    display: none;
+}
+.nav-mask span{
+    font-size: 0.3rem;
+    /* font-family: "华文仿宋"; */
+    display: block;
+    width: 2rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+}
+.nav-mask .line{
+    background: #999;
+    height: 0.005rem;
+    width: 100%;
+    border: none;
+}
+/* nav结束 */
+
+
+
+/* 尾部开始 */
+footer{
+    position: relative;
+    width: 7.50rem;
+    height: 1.27rem;
+    margin: auto;
+    background: #333;
+}
+footer img{
+    position: absolute;
+    width: 4.5rem;
+    height: 0.4rem;
+    margin: auto;
+    margin-left: 1.5rem;
+    margin-top: 0.4rem;
+    display: block;
+}
+
+.copyright{
+    width:100%;
+    margin: 0 auto;
+    height: 2rem;
+    background: #333;
+}
+ .copyright p{
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+}
+ .copyright p:first-child{
+     margin-top: 0;
+ }

@@ -9,6 +9,7 @@
     <script src="js/hammer.js"></script>
     <script src="js/jquery-hammer.js"></script>
     <script src="js/index.js"></script>
+    <script src="js/animate.js"></script>
     <link rel="stylesheet" href="css/rem.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/swiper-bundle.min.css">
@@ -26,19 +27,26 @@
             <div>EN</div>
         </div>
         <div class="login">
-            <span>登录</span>
-            <span>注册</span>
+            <span><a href="login.html">登录</a></span>
+            <span><a href="enroll.html">注册</a></span>
         </div>
     </div>
 
     <!-- 导航栏 -->
-    <nav>
-        <div class="nav-box">
-            <div class="list">首页</div>
-            <div class="btn">&gt;</div>
-        </div>
-    </nav>
-
+    <div class="nav">
+        <span>首页</span>
+        <div class="nav-more">></div>
+    </div>
+    <div class="nav-mask">
+        <div class="line"></div>
+        <a href="index.html"><span>首页</span></a>
+        <div class="line"></div>
+        <a href="service.html"><span>服务与支持</span></a>
+        <div class="line"></div>
+        <a href="about.html"><span>关于我们</span></a>
+        <div class="line"></div>
+        <a href="contact.html"><span>联系我们</span></a>
+    </div>
     <!-- 轮播图 -->
     <div class="swiper-container">
         <div class="swiper-wrapper">
@@ -60,6 +68,9 @@
         </div>
         <!-- 如果需要分页器 -->
         <!-- <div class="swiper-pagination"></div> -->
+            <!-- 如果需要导航按钮 -->
+    <!-- <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div> -->
     </div>
 
     <!-- 新品体验 -->
@@ -119,6 +130,7 @@
             </div>
             <div class="hot-goods-box">
                 <img src="images/record3.jpg" alt="">
+                
             </div>
         </div>
     </div>
@@ -166,6 +178,11 @@
         <p>苏ICP备19001176号</p>
     </div>
 
+    <!-- 返回顶部按钮 -->
+    <div class="top">
+        <span>></span>
+    </div>
+
     <script src="js/swiper-bundle.min.js"></script>
     <script>
         var mySwiper = new Swiper('.swiper-container', {
@@ -176,6 +193,10 @@
             pagination: {
                 el: '.swiper-pagination',
             },
+            // navigation: {
+            //     nextEl: '.swiper-button-next',
+            //     prevEl: '.swiper-button-prev',
+            // },
             autoplay: true,//每个三秒自动播放
         })        
     </script>

@@ -60,37 +60,6 @@ header img{
     margin-left: 0.2rem;
 }
 
-/* 导航栏 */
-/* nav{
-    margin: auto;
-    width: 100%;
-    height: 0.9rem;
-    background: #666;
-    position: relative;
-}
-.nav-box .list{
-    position: absolute;
-    width: 1rem;
-    height: 0.5rem;
-    margin-left: 40%;
-    margin-top: 0.2rem;
-    text-align: center;
-    line-height:0.5rem;
-    font-size: 0.3rem;
-    color: rgb(221, 220, 220);
-}
-.nav-box .btn{
-    position: absolute;
-    width: 1rem;
-    height: 0.5rem;
-    margin-left:90%;
-    margin-top: 0.2rem;
-    text-align: center;
-    line-height:0.5rem;
-    font-size: 0.3rem;
-    transform: rotate(90deg);
-    color: rgb(221, 220, 220);
-} */
 /* nav开始 */
 .nav{
     width: 100%;
@@ -157,106 +126,11 @@ header img{
     height: 100%;
 }
 
-/* 新品体验 */
-.background-box{
-    background: #f6f6f6;
-    width: 100%;border: 1px solid #f6f6f6;
-}
-.news-goods-title{
-    width: 100%;height: 0.91rem;
-    text-align: center;
-    margin-top: 0.6rem;
-}
-.news-goods-title p{
-    position: relative;
-    width: 2.80rem;
-    height: 0.5rem;
-    margin: 0 auto;
-    line-height: 0.5rem;
-    font-size: 0.55rem;
-    font-weight: bolder;
-    color: black;
-    text-align: center;
-    margin-bottom: 0.2rem;
-}
-.news-goods-title p:first-child:before{
-    position: absolute;
-    content: "";
-    width: 1rem;
-    top: 50%;
-    height: 0.01rem;
-    background: grey;
-    left: -1rem;
-}
-.news-goods-title p:first-child:after{
-    position: absolute;
-    content: "";
-    width: 1rem;
-    top: 50%;
-    height: 0.01rem;
-    background: grey;
-    right: -1rem;
-}
-/* 6个图片 */
-.news-goods{
-    width: 100%;
-    height: 3.7rem;
-    margin: auto;
-    position: relative;
-    overflow: hidden;
-}
-.news-goods-list-box{
-    width: 100%;
-    height: 3.5rem;
-    position: absolute;left: 0;top: 0;
-}
-.news-goods-list{
-    width: 3.5rem;height:3.5rem;
-    margin-left: 0.15rem;
-    margin-right: 0.05rem;
-    float: left;
-    box-shadow: 0 0 10px #ddd;
-    overflow: hidden;
-}
-.news-goods-list:last-child{
-    margin-right: 0;
-}
-.news-goods-list img{
-    width: 100%;
-    height: 85%;
-}
-.news-goods-list .cn{
-    width: 100%;
-    height: 15%;
-    text-align: center;
-    background: #fff;
-}
-
-
-/* 精彩时刻 */
-.hot-goods{
-    width: 6.6rem;height: 21rem;
-    margin: auto;
-    background: #fff;
-    margin-top: 0.5rem;
-    border: 1px solid #fff;
-    position: relative;
-}
-.hot-goods-box{
-    width: 6.6rem;height: 7rem;
-    margin: auto;
-    overflow: hidden;
-    margin-bottom: 0.2rem;
-}
-.hot-goods-box img{
-    width: 100%;height: 100%;
-}
-
 /* 关于我们 */
 .about{
     position: relative;
     width: 100%;
-    height: 10.9rem;
+    height: 9.5rem;
     background: url(../images/about.jpg);
     overflow: hidden;
 }
@@ -297,7 +171,6 @@ header img{
     background: rgb(43, 42, 42);
     margin-top: 30px;
 }
-
 /* 公司展示 */
 .look{
     width: 100%;
@@ -362,28 +235,3 @@ footer .address p{
      margin-top: 0;
  }
 
- /* 回到顶部 */
- .top{
-    background-color: rgb(208, 18, 27);
-    width: 0.7rem;
-    height: 0.7rem;
-    position: fixed;
-    bottom: 0.5rem;
-    right: 0.3rem;
-    opacity: 0;
-    cursor: pointer;
-}
-.top span{
-    height: 0.3rem;
-    width: 0.3rem;
-    font-size: 0.3rem;
-    margin: 0 auto;
-    display: block;
-    transform: rotate(270deg) scaleY(1.5);
-    color: #fff;
-    font-weight: bold;
-    text-align: center;
-    padding-bottom: 0.12rem;
-    margin-top: 0.15rem;
-    margin-left: 0.35rem;
-}

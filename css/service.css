@@ -61,36 +61,7 @@ header img{
 }
 
 /* 导航栏 */
-/* nav{
-    margin: auto;
-    width: 100%;
-    height: 0.9rem;
-    background: #666;
-    position: relative;
-}
-.nav-box .list{
-    position: absolute;
-    width: 1rem;
-    height: 0.5rem;
-    margin-left: 40%;
-    margin-top: 0.2rem;
-    text-align: center;
-    line-height:0.5rem;
-    font-size: 0.3rem;
-    color: rgb(221, 220, 220);
-}
-.nav-box .btn{
-    position: absolute;
-    width: 1rem;
-    height: 0.5rem;
-    margin-left:90%;
-    margin-top: 0.2rem;
-    text-align: center;
-    line-height:0.5rem;
-    font-size: 0.3rem;
-    transform: rotate(90deg);
-    color: rgb(221, 220, 220);
-} */
+
 /* nav开始 */
 .nav{
     width: 100%;
@@ -200,118 +171,48 @@ header img{
 /* 6个图片 */
 .news-goods{
     width: 100%;
-    height: 3.7rem;
+    height: 2.7rem;
     margin: auto;
     position: relative;
     overflow: hidden;
 }
 .news-goods-list-box{
     width: 100%;
-    height: 3.5rem;
+    height: 2.5rem;
     position: absolute;left: 0;top: 0;
 }
 .news-goods-list{
-    width: 3.5rem;height:3.5rem;
-    margin-left: 0.15rem;
-    margin-right: 0.05rem;
+    width: 2.5rem;height:2.5rem;
+    margin-left: 0.7rem;
+    margin-right: 0.8rem;
+    bottom: 0.4rem;
     float: left;
-    box-shadow: 0 0 10px #ddd;
+    border: 1px solid grey;
     overflow: hidden;
 }
 .news-goods-list:last-child{
     margin-right: 0;
+    margin-left: 0;
 }
 .news-goods-list img{
-    width: 100%;
-    height: 85%;
+    width: 65%;
+    height: 65%;
+    margin-left: 0.5rem;
+    margin-top: 0.1rem;
 }
 .news-goods-list .cn{
     width: 100%;
     height: 15%;
     text-align: center;
-    background: #fff;
+    margin-top: 0.4rem;
+    background: #f6f6f6;
 }
 
 
-/* 精彩时刻 */
-.hot-goods{
-    width: 6.6rem;height: 21rem;
-    margin: auto;
-    background: #fff;
-    margin-top: 0.5rem;
-    border: 1px solid #fff;
-    position: relative;
-}
-.hot-goods-box{
-    width: 6.6rem;height: 7rem;
-    margin: auto;
-    overflow: hidden;
-    margin-bottom: 0.2rem;
-}
-.hot-goods-box img{
-    width: 100%;height: 100%;
-}
 
-/* 关于我们 */
-.about{
-    position: relative;
-    width: 100%;
-    height: 10.9rem;
-    background: url(../images/about.jpg);
-    overflow: hidden;
-}
-.about .aboutTit{
-    font-size: 0.55rem;
-    font-weight: bolder;
-    margin-bottom: 0.3rem;
-    height: 0.6rem;
-    position: relative;
-    text-transform: uppercase;
-}
-.about .aboutTit:before{
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 0.8rem;
-    height: 0.01rem;
-    background: grey;
-}
-.aboutContent{
-    width: 10rem;
-    position: absolute;
-    top: 1rem;
-    left: 0.45rem;
-}
-.aboutContent p{
-    line-height: 40px;
-    font-size: 14px;
-}
-.aboutContent .knowMore{
-    width: 160px;
-    height: 40px;
-    font-size: 14px;
-    text-align: center;
-    line-height: 40px;
-    color: #fff;
-    background: rgb(43, 42, 42);
-    margin-top: 30px;
-}
 
-/* 公司展示 */
-.look{
-    width: 100%;
-    height: 4.9rem;
-    margin-bottom: 0.4rem;
-    overflow: hidden;
-}
-.look:last-child{
-    margin-bottom: 0;
-}
-.look img{
-    width: 100%;
-    height: 100%;
-}
+
+
 
 /* 尾部开始 */
 footer{
@@ -330,22 +231,7 @@ footer img{
     margin-top: 0.4rem;
     display: block;
 }
-/* footer .address{
 
-    width: 100%;
-    height:2rem;
-    text-align: center;
-    background: #333;
-}
-footer .address p{
- 
-    margin-top: 0.4rem;
-    line-height: 0.2rem;
-    text-align: left;
-    width: 100%;
-    color: #fff;
-    text-indent: 62px;
-} */
 .copyright{
     width:100%;
     margin: 0 auto;
@@ -361,29 +247,3 @@ footer .address p{
  .copyright p:first-child{
      margin-top: 0;
  }
-
- /* 回到顶部 */
- .top{
-    background-color: rgb(208, 18, 27);
-    width: 0.7rem;
-    height: 0.7rem;
-    position: fixed;
-    bottom: 0.5rem;
-    right: 0.3rem;
-    opacity: 0;
-    cursor: pointer;
-}
-.top span{
-    height: 0.3rem;
-    width: 0.3rem;
-    font-size: 0.3rem;
-    margin: 0 auto;
-    display: block;
-    transform: rotate(270deg) scaleY(1.5);
-    color: #fff;
-    font-weight: bold;
-    text-align: center;
-    padding-bottom: 0.12rem;
-    margin-top: 0.15rem;
-    margin-left: 0.35rem;
-}
